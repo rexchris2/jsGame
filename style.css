@@ -1,0 +1,30 @@
+body,
+html {
+
+    background-color: #333;
+}
+
+h1 {
+    color: rgb(11, 226, 43);
+    text-align: center;
+    font-size: 40px;
+}
+
+canvas {
+    border: 5px solid white;
+    background-image: "spaceBackground.jpg";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#gameOver {
+    display: none;
+    text-align: center;
+}
+#startScreen{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
